@@ -1,0 +1,22 @@
+.intro {
+	margin-bottom: 50px;
+
+	background-image: url(../img/bg/bg-intro.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+.intro__container {
+	padding-top: 145px;
+	padding-bottom: 145px;
+}
+
+.intro__title {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.intro__subtitle {
+	margin-bottom: 90px;
+}

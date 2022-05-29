@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@400;700&display=swap");
+
+/* header */
+@import url(header.css);
+/* main */
+@import url(main__intro.css);
+@import url(main__about-us.css);
+@import url(main__advantage.css);
+
+body {
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	color: #2c1f00;
+
+	background-color: #f9f3eb;
+}
+
+a {
+	color: #2c1f00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e6446d;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.container {
+	/* изменяется - адаптив */
+	width: 320px;
+	margin: 0 auto;
+
+	/* удалить */
+
+	outline: 1px solid grey;
+}
+
+.title {
+	font-weight: normal;
+
+	/* изменяется - адаптив */
+	font-size: 35px;
+	font-family: "Philosopher", sans-serif;
+}
+
+.btn {
+	/* изменяется - адаптив */
+	display: inline-block;
+	padding: 18px 30px;
+
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	background-color: #f5710c;
+	border: none;
+	border-radius: 10px;
+
+	transition: 0.2s;
+}
+
+.btn:hover {
+	color: #ffffff;
+
+	background-color: #e6446d;
+}

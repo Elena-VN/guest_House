@@ -1,0 +1,60 @@
+.about-us {
+	overflow: hidden;
+}
+
+.about-us .container {
+	position: relative;
+}
+
+.about-us .container::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+
+	width: 606px;
+	height: 500px;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-us .container:first-child::after {
+	margin-left: -20px;
+
+	background-image: url(../img/bg/bg-about-us-1.png);
+}
+
+.about-us .container:last-child::after {
+	right: -20px;
+
+	background-image: url(../img/bg/bg-about-us-2.png);
+}
+
+.about-us h2 {
+	margin-top: 0;
+}
+
+.about-us__table {
+	margin-top: 25px;
+	margin-bottom: 65px;
+	padding-bottom: 270px;
+
+	text-align: center;
+}
+
+.about-us .container:last-child .about-us__table {
+	margin-bottom: 45px;
+}
+
+.about-us__table th {
+	width: 120px;
+
+	font-weight: normal;
+	font-size: 55px;
+	font-family: "Philosopher", sans-serif;
+}
+
+.about-us__table td {
+	vertical-align: top;
+}

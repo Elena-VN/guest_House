@@ -1,0 +1,71 @@
+.advantage {
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+
+.advantage__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.advantage__item {
+	position: relative;
+	width: 235px;
+	text-align: center;
+	padding-top: 76px;
+}
+
+.advantage__item::before {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	content: '';
+	width: 100%;
+	height: 70px;
+	top: 5px;
+	left: 0;
+}
+
+.advantage__item-location::before {
+	background-image: url(../img/advantage/sea.svg);
+}
+
+.advantage__item-parking::before {
+	background-image: url(../img/advantage/parking.svg);
+}
+
+.advantage__item-kitchen::before {
+	background-image: url(../img/advantage/kitchen.svg);
+}
+
+.advantage__item-infrastr::before {
+	background-image: url(../img/advantage/compass.svg);
+}
+
+.advantage__item-wifi::before {
+	background-image: url(../img/advantage/wifi.svg);
+}
+
+.advantage__item-fun::before {
+	background-image: url(../img/advantage/wheel.svg);
+}
+
+.advantage__item-bbq::before {
+	background-image: url(../img/advantage/bbq.svg);
+}
+
+.advantage__item-rest::before {
+	background-image: url(../img/advantage/lotus.svg);
+}
+
+.advantage__subtitle {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.advantage__text {
+	font-size: 13px;
+}
