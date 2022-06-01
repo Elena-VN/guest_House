@@ -1,0 +1,86 @@
+.price .container {
+	margin-top: 105px;
+}
+
+.price__title {
+	margin-bottom: 45px;
+}
+
+.price__caption {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding-right: 40px;
+}
+
+.price__desc {
+	margin: 0;
+}
+
+.price__wrapper {
+	padding: 15px 10px 0;
+}
+
+.price__tabel {
+	margin: 0;
+	width: 100%;
+}
+
+.price__tabel tr {
+	display: flex;
+	padding: 10px 10px 8px;
+	justify-content: space-between;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.price__tabel tr:first-child {
+	margin-bottom: 10px;
+	padding: 0 0 0 10px;
+	border-bottom: none;
+}
+
+.price__tabel th {
+	font-size: 18px;
+	text-align: left;
+}
+
+details>img {
+	padding-left: 10px;
+}
+
+.price__info {
+	padding: 0 5px;
+}
+
+.price__list {
+	margin-top: 30px;
+}
+
+.price__list li {
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	box-shadow: inset 1px -1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.price__list li:last-child {
+	margin-bottom: 15px;
+}
+
+.price__list p {
+	margin-bottom: 10px;
+}
+
+.price__wrap {
+	display: flex;
+}
+
+.price__wrap p {
+	margin: 0;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+.price__wrap img {
+	padding-right: 5px;
+}
