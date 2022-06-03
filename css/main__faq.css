@@ -1,0 +1,49 @@
+.faq {
+	margin-top: 85px;
+	overflow: hidden;
+}
+
+.faq .container {
+	position: relative;
+	padding-bottom: 320px;
+}
+
+.faq .container::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+	right: -20px;
+
+	width: 606px;
+	height: 500px;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/bg/bg-faq.png);
+}
+
+.faq__title {
+	margin-bottom: 35px;
+}
+
+.faq .faq__subtitle {
+	padding: 20px 5px 20px 15px;
+}
+
+.faq .faq__subtitle:before {
+	right: 15px;
+	top: 15px;
+}
+
+.faq__subtitle p {
+	padding-right: 40px;
+	margin: 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.faq__text {
+	margin: 0;
+	padding: 15px;
+}
