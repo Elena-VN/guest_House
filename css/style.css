@@ -10,6 +10,7 @@
 @import url(main__photo.css);
 @import url(main__reviews.css);
 @import url(main__faq.css);
+@import url(main__feedback.css);
 
 body {
 	font-size: 16px;

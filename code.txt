@@ -1,28 +1,5 @@
 
-		<section class="feedback">
-			<div class="container">
-				<h2 class="feedback__title title">Заинтересовало? Пишите</h2>
-				<form method="POST" class="feedback__form block__shadow">
-					<ul class="feedback__list">
-						<li>
-							<input name="name" type="text" placeholder="Ваше имя">
-						</li>
-						<li>
-							<input name="phone" type="phone" placeholder="Номер телефона">
-						</li>
-						<li>
-							<input type="email" name="email" placeholder="Электронная почта">
-						</li>
-						<li>
-							<textarea name="text" placeholder="Сообщение"></textarea>
-						</li>
-						<li>
-							<input value="Отправить" type="submit" class="feedback__btn btn">
-						</li>
-					</ul>
-				</form>
-			</div>
-		</section>
+		
 		<section class="contact">
 			<script type="text/javascript" charset="utf-8" async
 				src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A606191aeac54b5960d856ec35d0028819ef7408e7d974c7e3b388c699015e20b&amp;width=100%25&amp;height=535&amp;lang=ru_RU&amp;scroll=true"></script>
