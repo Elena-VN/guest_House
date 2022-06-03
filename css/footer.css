@@ -1,0 +1,29 @@
+footer {
+	background-color: #928976;
+}
+
+footer .container {
+	padding: 55px 0 30px;
+}
+
+.footer__logo {
+	margin-bottom: 30px;
+}
+
+.footer__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.footer__item {
+	width: 150px;
+	padding: 0;
+	height: 41px;
+}
+
+.footer__copyright {
+	color: gba(44, 31, 0, 0.5);
+	font-size: 13px;
+}
