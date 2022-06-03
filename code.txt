@@ -1,82 +1,4 @@
 
-		<section class="faq">
-			<div class="container">
-				<h2 class="faq__title title">Вопросы и ответы</h2>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Есть ли номера для курящих?
-					</summary>
-					<p class="faq__text">Нет, в номерах гостевого дома не курят, только в специально отведённых местах</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Есть ли у отеля автостоянка?
-					</summary>
-					<p class="faq__text">На территории есть большая бесплатная автостоянка</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Если ли номера с ванной?
-					</summary>
-					<p class="faq__text">В 2020 году в нашем гостевом доме сделан капитальный ремонт: заменены окна и двери,
-						в каждый санузел добавлен душ, заменены полы, усилена шумоизоляция между номерами</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Во всех ли номерах есть Wi-Fi?
-					</summary>
-					<p class="faq__text">Во всех номерах и на территории работает беспроводной интернет</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Оборудованы ли номера для самостоятельного приготовления пищи?
-					</summary>
-					<p class="faq__text">Есть один отдельно стоящий, двухкомнатный номер со всеми удобствами,кондиционером
-						и стиральной машиной, со своей кухней и двориком с навесом.</p>
-					<p class="faq__text">Для всех гостей оборудована летняя кухня, оснащённая всем необходимым
-						для самостоятельного приготовления пищи: газовые плиты, посуда, мойки, три холодильника и микроволновая
-						печь. </p>
-					<p class="faq__text">Тут же большой навес с телевизором и для каждой комнаты свой столик и чайник.</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Как забронировать номер?
-					</summary>
-					<p class="faq__text">Для бронирования номера свяжитесь с нами по указанным телефонам или по электронной почте.
-						При бронировании сообщайте сроки проживания и количество человек.</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Нужно ли подтверждать бронь?
-					</summary>
-					<p class="faq__text">Если бронируете заранее, убедительная просьба подтверждать бронь не реже, чем раз в месяц
-						а так же за две недели до приезда.</p>
-					<p class="faq__text">При несоблюдении всех условий бронь снимается. Сообщить где и когда вас встречать
-						вы можете сразу после того как приобретёте билеты. Перед выездом обязательно сообщите, что ваши планы
-						не изменились и вы выезжаете.</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Требуется ли предоплата?
-					</summary>
-					<p class="faq__text">Те кто приезжает к нам в первый раз и добирается самостоятельно, потребуется предоплата
-						в сумме, не менее стоимости трёх дней проживания.</p>
-					<p class="faq__text">Поступление предоплаты не позднее, чем за 10 дней до приезда.</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Можно ли приезжать с животными?
-					</summary>
-					<p class="faq__text">К сожалению, с животными не принимаем и не заселяем</p>
-				</details>
-				<details class="faq__accordion block__shadow">
-					<summary class="faq__subtitle">
-						Сколько человек может проживать в номере?
-					</summary>
-					<p class="faq__text">В зависимости от номера, смотрите раздел номера</p>
-				</details>
-			</div>
-		</section>
 		<section class="feedback">
 			<div class="container">
 				<h2 class="feedback__title title">Заинтересовало? Пишите</h2>
@@ -125,7 +47,9 @@
 				</div>
 			</div>
 		</section>
-	<footer>
+
+
+<footer>
 		<div class="container">
 			<div class="footer__logo logo">
 				<a href="">
