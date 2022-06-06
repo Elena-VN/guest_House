@@ -20,3 +20,17 @@
 .intro__subtitle {
 	margin-bottom: 90px;
 }
+
+@media (min-width: 480px) {
+	.intro__container {
+		padding-top: 240px;
+		padding-bottom: 245px;
+	}
+
+
+
+	.intro__subtitle {
+		padding-right: 230px;
+		margin-bottom: 65px;
+	}
+}
