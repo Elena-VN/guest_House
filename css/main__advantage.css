@@ -69,3 +69,22 @@
 .advantage__text {
 	font-size: 13px;
 }
+
+@media (min-width: 480px) {
+	.advantage {
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+
+	.advantage__list {
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+
+	.advantage__item {
+		width: 210px;
+		margin-bottom: 15px;
+	}
+}
