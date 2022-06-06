@@ -40,21 +40,17 @@ ul {
 }
 
 .container {
-	/* изменяется - адаптив */
 	width: 320px;
 	margin: 0 auto;
 }
 
 .title {
 	font-weight: normal;
-
-	/* изменяется - адаптив */
 	font-size: 35px;
 	font-family: "Philosopher", sans-serif;
 }
 
 .btn {
-	/* изменяется - адаптив */
 	display: inline-block;
 	padding: 18px 30px;
 
@@ -132,4 +128,18 @@ details {
 	display: block;
 	background-color: #fff;
 	margin-bottom: 5px;
+}
+
+@media (min-width: 480px) {
+	.container {
+		width: 440px;
+	}
+
+	.title {
+		font-size: 50px;
+	}
+
+	.btn {
+		padding: 20px 45px;
+	}
 }
