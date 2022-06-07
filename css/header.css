@@ -111,3 +111,29 @@ header .container {
 		top: 58px;
 	}
 }
+
+@media (min-width: 768px) {
+	.nav__wrapper {
+		right: -20px;
+		left: -20px;
+		padding: 40px 67px 30px;
+		border-radius: 0 0 10px 10px;
+	}
+
+	.nav__list {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header__phone {
+		position: absolute;
+		top: -68px;
+		right: 100px;
+		margin-top: 0;
+		flex-grow: 0;
+	}
+
+	.phone__link {
+		padding: 5px 0;
+	}
+}
