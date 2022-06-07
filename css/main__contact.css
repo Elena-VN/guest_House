@@ -67,3 +67,15 @@
 p.contact__text {
 	margin-bottom: 10px;
 }
+
+@media (min-width: 480px) {
+
+	.contact__title {
+		padding-left: 40px;
+	}
+
+	.contact__list {
+		padding: 25px 37px 15px 40px;
+		font-size: 22px;
+	}
+}
