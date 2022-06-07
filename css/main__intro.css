@@ -27,10 +27,18 @@
 		padding-bottom: 245px;
 	}
 
-
-
 	.intro__subtitle {
 		padding-right: 230px;
 		margin-bottom: 65px;
+	}
+}
+
+@media (min-width: 768px) {
+	.intro__title {
+		padding-right: 150px;
+	}
+
+	.intro__subtitle {
+		padding-right: 530px;
 	}
 }
