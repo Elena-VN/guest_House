@@ -27,3 +27,14 @@ footer .container {
 	color: gba(44, 31, 0, 0.5);
 	font-size: 13px;
 }
+
+@media (min-width: 480px) {
+
+	footer .container {
+		padding-bottom: 40px;
+	}
+
+	.footer__item {
+		width: 210px;
+	}
+}
