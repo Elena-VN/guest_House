@@ -130,6 +130,10 @@ details {
 	margin-bottom: 5px;
 }
 
+details>picture {
+	padding-left: 10px;
+}
+
 @media (min-width: 480px) {
 	.container {
 		width: 440px;
@@ -141,5 +145,14 @@ details {
 
 	.btn {
 		padding: 20px 45px;
+	}
+
+	summary {
+		width: 420px;
+		padding-bottom: 20px;
+	}
+
+	details>picture {
+		padding-left: 20px;
 	}
 }

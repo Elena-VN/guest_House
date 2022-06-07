@@ -44,10 +44,6 @@
 	text-align: left;
 }
 
-details>img {
-	padding-left: 10px;
-}
-
 .price__info {
 	padding: 0 5px;
 }
@@ -81,6 +77,29 @@ details>img {
 	padding-right: 5px;
 }
 
-.price__wrap img {
-	padding-right: 5px;
+@media (min-width: 480px) {
+
+	.price__title {
+		margin-bottom: 40px;
+	}
+
+	.price__wrapper {
+		padding: 30px 20px 0;
+	}
+
+	.price__list {
+		display: flex;
+		margin-top: 15px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.price__list li {
+		width: 180px;
+		margin-bottom: 10px;
+	}
+
+	.price__list li:last-child {
+		margin-bottom: 20px;
+	}
 }
