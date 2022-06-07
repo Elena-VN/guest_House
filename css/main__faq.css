@@ -1,5 +1,5 @@
 .faq {
-	margin-top: 85px;
+	margin-top: 15px;
 	overflow: hidden;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .faq__title {
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 .faq .faq__subtitle {
@@ -46,4 +46,15 @@
 .faq__text {
 	margin: 0;
 	padding: 15px;
+}
+
+@media (min-width: 480px) {
+
+	.faq .faq__subtitle {
+		padding: 25px 0 25px 20px;
+	}
+
+	.faq__text {
+		padding: 20px;
+	}
 }
