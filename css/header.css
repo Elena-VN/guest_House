@@ -137,3 +137,37 @@ header .container {
 		padding: 5px 0;
 	}
 }
+
+@media (min-width: 1080px) {
+	.header__nav {
+		flex-grow: 1;
+		align-self: center;
+	}
+
+	#nav__toggle,
+	.nav__btn {
+		display: none;
+	}
+
+	.nav__wrapper {
+		visibility: visible;
+		position: inherit;
+		top: auto;
+		right: auto;
+		box-shadow: none;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.nav__list {
+		flex-grow: 1;
+		align-items: center;
+		padding-left: 10px;
+	}
+
+	.header__phone {
+		position: inherit;
+		padding-left: 20px;
+	}
+}
