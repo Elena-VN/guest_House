@@ -104,7 +104,6 @@
 	.advantage__item p {
 		padding-left: 55px;
 		padding-right: 55px;
-
 	}
 
 	.advantage__subtitle {
@@ -113,5 +112,21 @@
 
 	.advantage__text {
 		margin-top: 10px;
+	}
+}
+
+@media (min-width: 1080px) {
+	.advantage {
+		padding-top: 45px;
+	}
+
+	.advantage__item {
+		width: 235px;
+		/* margin-bottom: 12px; */
+	}
+
+	.advantage__item p {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
