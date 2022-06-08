@@ -112,3 +112,33 @@
 		height: 30px;
 	}
 }
+
+@media (min-width: 768px) {
+	.reviews {
+		margin-top: 50px;
+	}
+
+	.reviews .container {
+		margin-top: 50px;
+		padding-bottom: 400px;
+	}
+
+	.reviews .container::after {
+		width: 728px;
+		height: 600px;
+		right: -20px;
+		margin-left: 0;
+	}
+
+	.reviews__title {
+		margin-top: 0px;
+	}
+
+	.reviews__text {
+		height: 55px;
+	}
+
+	.reviews__open {
+		height: 100%;
+	}
+}
