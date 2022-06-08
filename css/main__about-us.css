@@ -114,3 +114,40 @@
 		width: 155px;
 	}
 }
+
+@media (min-width: 1080px) {
+	.about-us .container:last-child {
+		padding-top: 20px;
+	}
+
+	.about-us .container::after {
+		width: 865px;
+		height: 600px;
+		top: 0;
+	}
+
+	.about-us .container:first-child::after {
+		left: 595px;
+	}
+
+	.about-us .container:last-child::after {
+		background-image: url(../img/bg/bg-about-us-2.png);
+		top: -55px;
+		right: 590px;
+	}
+
+	.about-us__text {
+		width: 490px;
+	}
+
+	.about-us .container:last-child .about-us__text {
+		padding-left: 500px;
+	}
+
+	.about-us .container:last-child .about-us__table {
+		padding-left: 500px;
+		margin-bottom: 90px;
+	}
+
+
+}
