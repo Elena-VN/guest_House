@@ -58,3 +58,20 @@
 		padding: 20px;
 	}
 }
+
+@media (min-width: 768px) {
+	.faq .container {
+		padding-bottom: 400px;
+	}
+
+	.faq .container::after {
+		right: 20px;
+		background-size: contain;
+		width: 728px;
+		height: 600px;
+	}
+
+	.faq__title {
+		margin-top: 30px;
+	}
+}
