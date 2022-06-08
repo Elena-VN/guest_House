@@ -42,3 +42,21 @@
 		padding-right: 530px;
 	}
 }
+
+@media (min-width: 1080px) {
+	.intro__container {
+		text-align: center;
+	}
+
+	.intro__title {
+		padding-right: 0;
+		width: 440px;
+		margin: 0 auto 15px auto;
+	}
+
+	.intro__subtitle {
+		padding-right: 0;
+		width: 245px;
+		margin: 0 auto 67px auto;
+	}
+}
