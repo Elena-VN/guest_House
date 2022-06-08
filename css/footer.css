@@ -38,3 +38,18 @@ footer .container {
 		width: 210px;
 	}
 }
+
+@media (min-width: 768px) {
+
+	footer .container {
+		padding-top: 40px;
+	}
+
+	.footer__list {
+		justify-content: flex-start;
+	}
+
+	.footer__item {
+		width: 25%;
+	}
+}
