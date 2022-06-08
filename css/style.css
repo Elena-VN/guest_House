@@ -161,4 +161,8 @@ details>picture {
 	.container {
 		width: 728px;
 	}
+
+	summary {
+		width: 710px;
+	}
 }

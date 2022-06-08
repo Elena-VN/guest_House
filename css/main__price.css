@@ -103,3 +103,17 @@
 		margin-bottom: 20px;
 	}
 }
+
+@media (min-width: 768px) {
+	.price .container {
+		margin-top: 55px;
+	}
+
+	.price__title {
+		margin-bottom: 30px;
+	}
+
+	.price__wrapper {
+		padding: 30px 15px 0;
+	}
+}
