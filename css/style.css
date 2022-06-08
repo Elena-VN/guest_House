@@ -166,3 +166,13 @@ details>picture {
 		width: 710px;
 	}
 }
+
+@media (min-width: 1080px) {
+	.container {
+		width: 1000px;
+	}
+
+	summary {
+		width: 980px;
+	}
+}
