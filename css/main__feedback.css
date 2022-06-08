@@ -84,3 +84,33 @@
 		width: 358px;
 	}
 }
+
+@media (min-width: 768px) {
+	.feedback .container {
+		padding-bottom: 380px;
+	}
+
+	.feedback .container::after {
+		right: -20px;
+		background-size: contain;
+		width: 728px;
+		height: 550px;
+		background-position: bottom right;
+	}
+
+	.feedback__title {
+		margin-top: 30px;
+		padding: 0 140px;
+	}
+
+	.feedback__form {
+		margin: 0 auto;
+		width: 460px;
+		padding: 40px;
+	}
+
+	.feedback__list textarea,
+	.feedback__list input {
+		width: 418px;
+	}
+}
