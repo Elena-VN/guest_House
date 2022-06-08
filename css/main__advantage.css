@@ -88,3 +88,30 @@
 		margin-bottom: 15px;
 	}
 }
+
+@media (min-width: 768px) {
+	.advantage {
+		margin-top: 55px;
+		padding-top: 35px;
+		padding-bottom: 20px;
+	}
+
+	.advantage__item {
+		width: 353px;
+		margin-bottom: 12px;
+	}
+
+	.advantage__item p {
+		padding-left: 55px;
+		padding-right: 55px;
+
+	}
+
+	.advantage__subtitle {
+		margin-bottom: 5px;
+	}
+
+	.advantage__text {
+		margin-top: 10px;
+	}
+}
