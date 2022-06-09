@@ -142,3 +142,32 @@
 		height: 100%;
 	}
 }
+
+@media (min-width: 1080px) {
+	.reviews {
+		margin-top: 0;
+	}
+
+	.reviews .container {
+		margin-top: 45px;
+		padding-bottom: 0;
+	}
+
+	.reviews .container::after {
+		width: 865px;
+		height: 650px;
+		right: auto;
+		bottom: 0;
+		left: 595px;
+	}
+
+	.reviews__wrap {
+		padding-left: 85px;
+		width: 490px;
+	}
+
+	.reviews__wrap::before {
+		width: 40px;
+		height: 30px;
+	}
+}
