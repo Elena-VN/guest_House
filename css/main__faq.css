@@ -75,3 +75,36 @@
 		margin-top: 30px;
 	}
 }
+
+@media (min-width: 1080px) {
+	.faq {
+		margin-top: 0;
+	}
+
+	.faq .container {
+		padding-bottom: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+	}
+
+	.faq .container::after {
+		right: 595px;
+		width: 865px;
+		height: 650px;
+	}
+
+	.faq__title {
+		margin-top: 30px;
+		padding-right: 90px;
+	}
+
+	.faq__accordion {
+		width: 490px;
+		margin-right: 15px;
+	}
+
+	.faq__accordion summary {
+		width: 470px;
+	}
+}
