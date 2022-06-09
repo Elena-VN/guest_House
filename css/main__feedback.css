@@ -114,3 +114,34 @@
 		width: 418px;
 	}
 }
+
+@media (min-width: 1080px) {
+	.feedback .container {
+		padding-bottom: 0;
+	}
+
+	.feedback .container::after {
+		right: auto;
+		left: 595px;
+		width: 865px;
+		height: 650px;
+	}
+
+	.feedback__title {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+		padding: 0 535px 0 0;
+	}
+
+	.feedback__form {
+		margin: 0;
+		width: 405px;
+		padding: 40px;
+	}
+
+	.feedback__list textarea,
+	.feedback__list input {
+		width: 364px;
+	}
+}
