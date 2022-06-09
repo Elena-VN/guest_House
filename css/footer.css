@@ -24,7 +24,7 @@ footer .container {
 }
 
 .footer__copyright {
-	color: gba(44, 31, 0, 0.5);
+	color: rgba(44, 31, 0, 0.5);
 	font-size: 13px;
 }
 
@@ -51,5 +51,34 @@ footer .container {
 
 	.footer__item {
 		width: 25%;
+	}
+}
+
+@media (min-width: 768px) {
+
+	footer .container {
+		padding-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 20px;
+	}
+
+	.footer__logo {
+		margin-bottom: 0;
+	}
+
+	.footer__nav {
+		flex-grow: 1;
+	}
+
+	.footer__list {
+		justify-content: flex-start;
+		margin-left: 130px;
+	}
+
+	.footer__copyright {
+		margin-top: 0;
+		margin-left: auto;
+		margin-bottom: 0;
 	}
 }
