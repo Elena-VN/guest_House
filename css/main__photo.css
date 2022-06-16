@@ -11,11 +11,12 @@
 }
 
 .photo__subtitle {
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 }
 
 .photo__wrapper {
-	margin-top: -40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .photo .swiper-slide {
@@ -28,6 +29,24 @@
 	border-radius: 10px;
 	width: 320px;
 	height: 320px;
+}
+
+.btn.photo__btn--open {
+	background-color: transparent;
+	border: 3px solid #f5710c;
+	color: #2c1f00;
+}
+
+.btn.photo__btn--open:hover {
+	background-color: transparent;
+	border-color: #e6446d;
+	color: #2c1f00;
+}
+
+.btn.photo__btn--open:active {
+	background-color: #F67D2F;
+	border-color: #F67D2F;
+	color: #fff;
 }
 
 @media (min-width:480px) {
