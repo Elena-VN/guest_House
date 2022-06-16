@@ -8,20 +8,66 @@
 .photo__title {
 	margin-top: 30px;
 	margin-bottom: 15px;
-
 }
 
 .photo__subtitle {
 	margin-bottom: 70px;
 }
 
+.photo__wrapper {
+	margin-top: -40px;
+}
+
+.photo .swiper-slide {
+	overflow: hidden;
+	text-align: center;
+}
+
 .photo__wrapper img {
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
 	border-radius: 10px;
+	width: 320px;
+	height: 320px;
+}
+
+div.swiper-button {
+	width: 40px;
+	height: 40px;
+}
+
+div.swiper-button::after {
+	content: '';
+	background-image: url(../img/arrow-acc.svg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border-radius: 40px;
+	background-size: 30px 30px;
+	background-position: center center;
+	width: 40px;
+	height: 40px;
+	opacity: 0.5;
+}
+
+div.swiper-button:hover::after {
+	opacity: 0.9;
+}
+
+.swiper-button-next::after {
+	transform: rotate(90deg);
+}
+
+.swiper-button-prev::after {
+	transform: rotate(-90deg);
+}
+
+@media (min-width:480px) {
+	.photo__wrapper img {
+		width: 440px;
+		height: 440px;
+	}
 }
 
 @media (min-width: 768px) {
-
 	.photo {
 		padding-bottom: 45px;
 	}
@@ -35,12 +81,16 @@
 	}
 
 	.photo__wrapper {
-		text-align: center;
+		margin-top: -15px;
+	}
+
+	.photo__wrapper img {
+		width: 425px;
+		height: 425px;
 	}
 }
 
 @media (min-width: 1080px) {
-
 	.photo {
 		padding-bottom: 45px;
 		padding-top: 45px;
@@ -53,9 +103,5 @@
 
 	.photo__subtitle {
 		margin-bottom: 50px;
-	}
-
-	.photo__wrapper {
-		text-align: center;
 	}
 }
