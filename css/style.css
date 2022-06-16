@@ -135,6 +135,36 @@ details>picture {
 	padding-left: 10px;
 }
 
+div.swiper-button {
+	width: 40px;
+	height: 40px;
+}
+
+div.swiper-button::after {
+	content: '';
+	background-image: url(../img/arrow-acc.svg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border-radius: 40px;
+	background-size: 30px 30px;
+	background-position: center center;
+	width: 40px;
+	height: 40px;
+	opacity: 0.5;
+}
+
+div.swiper-button:hover::after {
+	opacity: 0.9;
+}
+
+.swiper-button-next::after {
+	transform: rotate(90deg);
+}
+
+.swiper-button-prev::after {
+	transform: rotate(-90deg);
+}
+
 @media (min-width: 480px) {
 	.container {
 		width: 440px;
