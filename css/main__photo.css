@@ -17,10 +17,11 @@
 .photo__wrapper {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
 }
 
 .photo .swiper-slide {
-	overflow: hidden;
 	text-align: center;
 }
 
