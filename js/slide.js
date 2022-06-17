@@ -22,6 +22,30 @@ const swiper = new Swiper('.photo__swiper', {
 		1080: {
 			slidesPerView: 2.4,
 			spaceBetween: 20
+		},
+		1160: {
+			slidesPerView: 2.6,
+			spaceBetween: 20
+		},
+		1310: {
+			slidesPerView: 2.8,
+			spaceBetween: 20
+		},
+		1400: {
+			slidesPerView: 3,
+			spaceBetween: 20
+		},
+		1520: {
+			slidesPerView: 3.5,
+			spaceBetween: 20
+		},
+		1715: {
+			slidesPerView: 3.8,
+			spaceBetween: 20
+		},
+		1820: {
+			slidesPerView: 4,
+			spaceBetween: 20
 		}
 	},
 	loop: true,

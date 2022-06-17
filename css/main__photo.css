@@ -50,6 +50,10 @@
 	color: #fff;
 }
 
+.photo div.swiper-button {
+	z-index: 1;
+}
+
 @media (min-width:480px) {
 	.photo__wrapper img {
 		width: 440px;
@@ -93,5 +97,10 @@
 
 	.photo__subtitle {
 		margin-bottom: 50px;
+	}
+
+	.btn.photo__btn--open {
+		margin: 0 auto;
+		display: block;
 	}
 }
