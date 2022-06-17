@@ -16,6 +16,10 @@
 /* footer */
 @import url(footer.css);
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-size: 16px;
 	font-family: "Roboto", sans-serif;
