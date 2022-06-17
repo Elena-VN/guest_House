@@ -3,6 +3,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	min-height: 465px;
 }
 
 .contact__wrapper {
@@ -84,6 +85,7 @@ p.contact__text {
 @media (min-width: 768px) {
 	.contact {
 		margin-top: 50px;
+		min-height: 535px;
 	}
 
 	.contact__wrapper {
